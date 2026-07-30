@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<web-app>
+
+    <servlet>
+        <servlet-name>contextparam</servlet-name>
+        <servlet-class>com.scontextcontextparam.elc.InformationServlet</servlet-class>
+    </servlet>
+
+    <servlet-mapping>
+        <servlet-name>contextparam</servlet-name>
+        <url-pattern>/contextparam</url-pattern>
+    </servlet-mapping>
+
+    <context-param>
+        <param-name>websiteName</param-name>
+        <param-value>SmartShop</param-value>
+    </context-param>
+
+    <context-param>
+        <param-name>companyName</param-name>
+        <param-value>ABC Technologies</param-value>
+    </context-param>
+
+    <context-param>
+        <param-name>customerCareEmail</param-name>
+        <param-value>support@smartshop.com</param-value>
+    </context-param>
+
+</web-app>
