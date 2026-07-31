@@ -1,0 +1,12 @@
+<web-app>
+	
+	<servlet>
+		<servlet-name>hello</servlet-name>
+		<servlet-class>servletDay01.UserServlet</servlet-class>
+	</servlet>
+	
+	<servlet-mapping>
+		<servlet-name>hello</servlet-name>
+		<url-pattern>/t</url-pattern>
+	</servlet-mapping>
+</web-app>
